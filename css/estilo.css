@@ -1,0 +1,73 @@
+* 
+
+.banner {
+
+
+width: 100%;
+align-items: center;
+background-image: url(https://conteudo.imguol.com.br/c/entretenimento/70/2021/05/25/codigo-binario-1621982130311_v2_900x506.jpg);
+
+height: 700px;
+ 
+
+
+
+
+}
+
+
+#resultadoOctal{
+
+    color: white
+}
+
+#resultadoBinario{
+
+    color: white
+   
+}
+
+
+ #resultadoHexa{
+
+    color: white
+
+ }
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+    
+  }
+
+  body{
+
+    color: yellow
+  }
+
+  footer {
+    padding: 3px 0;
+    background-color: yellowgreen;
+  }
+  
+  footer .container {
+    justify-content: center;
+  }
+  
+  footer p {
+    color: rgb(255, 255, 255);
+  }
+
+  .bloco{
+background-color: brown;
+
+  }

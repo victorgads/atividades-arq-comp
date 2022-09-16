@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+   
+    
+        <div class="banner">
+
+            <div class="container">
+>
+                <h1>Conversor Decimal Para Octal, Binario e Hexadecimal </h1>
+
+               <b><h3>Valor em decimal</h3></b>
+
+                <input id="valor" type="number">
+                <br>
+                <br>
+                <button onclick="converterBinario()">Converter em Binario</button>
+                <br> 
+                <button onclick="converterOctal()">Converter em Octal</button>
+                    <br>
+                <button onclick="converterHexadecimal()">converter em Hexadecimal</button>
+                <br>
+
+
+                <div style="background-color: yellowgreen">
+                <div id="resultadoBinario"></div>
+                <br>
+                <div id="resultadoOctal"></div>
+                <br>
+                <div id="resultadoHexa"></div>
+                <br>
+                 </div>
+            
+        </div>
+        </div>
+       
+        <footer>
+            <div class="container">
+              <p> Feito por Victor Gabriel - SPTech &copy; 2022</p>
+            </div>
+          </footer>
+</body>
+
+</html>
+<script>
+function converterBinario(){
+
+    varBinario  = Number(valor.value);
+    
+
+    resultadoBinario.innerHTML = `<b>Valor em Binario = 
+    ${varBinario.toString(2)}</b><br>` 
+
+     
+}
+
+function converterOctal() {
+
+varOctal = Number(valor.value);
+    
+resultadoOctal.innerHTML = `<b>Valor em Octal =
+${varOctal.toString(8)}</b><br>` 
+
+}
+
+function converterHexadecimal() {
+
+varHexadecimal = Number(valor.value)
+
+resultadoHexa.innerHTML = `<b>Valor em Hexadecimal = 
+${varHexadecimal.toString(16)}</b>`
+
+}
+</script>
