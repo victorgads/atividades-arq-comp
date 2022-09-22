@@ -1,1 +1,0 @@
-# atividades-arq-comp
